@@ -1,0 +1,106 @@
+ var num=prompt("enter the uppercase letter ")
+ var character = '5';
+ if (character == character.toUpperCase()) {
+  alert ('uppercase true');
+ }
+
+ var num=prompt("enter the lowercase letter ")
+
+ if (character == character.toLowerCase()){
+  alert ('lowercase true');
+
+  var num=prompt("enter the number ")
+
+ }else(character==character.number())
+ {
+     alert("number true")
+ }
+
+
+ num1 =window.prompt("Input the First integer", "0");
+ num2 = window.prompt("Input the second integer", "0");
+                                                 
+ if(parseInt(num1, 10) > parseInt(num2, 10)) 
+   { 
+  document.write("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+   }   
+ else
+   if(parseInt(num2, 10) > parseInt(num1, 10)) 
+   {
+   document.write("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+   }                  
+ else
+   {
+    document.write("The values "+ num1+ " and "+num2+ " are equal.")  }
+
+
+ program that checks if the number is positive, negative or zero
+ input from the user
+ const number = parseInt(prompt("Enter a number: "));
+
+  //check if number is greater than 0
+ if (number > 0) {
+     alert("The number is positive");/ }
+
+ // check if number is 0
+ else if (number == 0) {
+ alert("The number is zero");
+ }
+
+ // if (number is less than 0) 
+ else {
+     alert("The number is negative");
+ }
+
+
+
+var zip=prompt("enter the letter")
+ var findVowel = function(letter) {
+
+     var vowels = ["a", "e", "i", "o", "u"];
+    
+         for(var i in vowels){
+    
+             if(letter === i){
+                          //  return true;
+                          alert("true")
+
+        } else {
+                       //  return false;
+                     alert("false")
+                 }
+             }
+    
+     };
+    
+     findVowel("e");
+
+
+
+ var pass="jave4567"
+ var cab=prompt("enter first password")
+ var cab1=prompt("enter first password")
+ if("password"){
+     alert("please enter your password")
+ }else{
+ alert("passwords are same")
+ }
+ if("pass"){
+     alert("password are same")
+ }
+ if("pas"){
+ alert("incorrect password")
+ }
+    
+
+ var pass=prompt("enter hours")
+ var greeting;
+ var hour = 13;
+ if (hour < 18) { alert ("Good day");
+} if("good"){
+ alert("Good evening");
+ }
+
+
+
+

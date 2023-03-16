@@ -1,0 +1,126 @@
+ let myArray=[] let cities=["Karachi" ,"Lahore"] let numbers=[1,2,3,4]
+
+
+ 	let book = [] 	for(let i=0; i<5; i++) 	
+    	book.push(true) 	 	console.log(book);   
+          let city=["karachi" ,2 ,"banana" , true     console.log(city)]
+
+
+
+     var sub=["SSC","HSC" ,"BCS" ,"BS" ,"BCOM" , "MS" , "M.Phil" , "phD"]
+    document.write("qualifications<br>")
+     document.write("1 SSC<br>")
+   
+        document.write("2 HSC<br>")
+    
+         document.write("3 BCS<br>")
+    
+         document.write(" 4 BS<br>")
+
+         document.write("5 BCOM<br>")
+  
+         document.write(" 6 MS<br>")
+      
+         document.write("7 M.Phil<br>")
+      
+         document.write("8 PhD <br> <br>")
+
+
+ var copy=["Ali", "Maham", "Rizwan"]
+ var car=[320,230,480]
+ var num=500;
+ document.write("score of Ali is 320.percentage is 64% <br>")
+ document.write("score of Maham is 230.percentage is 46% <br>")
+ document.write("score of Rizwan is 480.percentage is 96% <br> <br> <br>" )
+ const array1 = ["blue" , "yellow" , "green]
+  prompt("enter the first color) document.write(array1.unshift("pink")) document.write(array1); document.write("<br>" document.write("<br>"))
+ var cat=["blue" , "yellow" , "green"] prompt("enter the end color" )
+ document.write(cat.push("red") )
+ document.write(cat)
+
+
+
+ const months = ["blue", "yellow", "green"];
+ months.splice(2, 0, 'white', "orange");
+ // Inserts at index 1
+ document.write(months);
+
+ const month= ["blue", "yellow", "green"];
+ month.shift(month);
+ // Inserts at index 1
+ document.write(month);
+
+ const mont= ["blue", "yellow", "green"];
+ mont.pop(mont);
+ // Inserts at index 1
+ document.write(mont);
+
+
+ var country =prompt("enter color and index")
+ const countries =["blue", "yellow", "green"];
+
+
+ countries.unshift("purple");
+
+ document.write(countries); // ["South Africa","Mali","Kenya","Nigeria","Ghana","Rwanda"]
+
+ document.write("<br>")
+ document.write("<br>")
+
+
+ var country =prompt("enter color and index for removing")
+ const countrie =["blue", "yellow", "green"];
+
+
+ countrie.pop("purple");
+
+ document.write(countrie); // ["South Africa","Mali","Kenya","Nigeria","Ghana","Rwanda"]
+
+
+
+ var country =prompt("enter color and index for removing")
+ const countri =["blue", "yellow", "green"];
+
+
+// countri.pop("purple");
+
+// document.write(countri); // ["South Africa","Mali","Kenya","Nigeria","Ghana","Rwanda"]
+
+
+
+ let arr=[320,230,480,120]
+ document.write("scores of students: 320,230,480,120<br>")
+ arr.sort();
+ document.write(arr)
+
+
+ var tag=["Karachi", "Lahore","Islamabad"]
+ document.write(tag)
+
+
+
+ var big = ["this", "is","my","cat" ]
+ big.join(',')
+ document.write(big)
+
+ first in first out
+var blog=["keyboard" ,"mouse" ,"printer" ,"monitor"]
+ document.write("Out:<br>keyboard <br>")
+ document.write("Out:<br>mouse <br>")
+ document.write("Out:<br>printer <br>")
+ document.write("Out:<br>monitor <br><br><br>")
+
+ last in first out
+var frog=["keyboard" ,"mouse" ,"printer" ,"monitor"]
+document.write("Out:<br>monitor <br>")
+ document.write("Out:<br>printer <br>")
+document.write("Out:<br>mouse <br>")
+ document.write("Out:<br>keyboard <br>")
+
+
+
+ function favTutorial() {  
+   var mylist = document.getElementById("myList");  
+    document.getElementById("favourite").value = mylist.options[mylist.selectedIndex].text;}
+ var mob=["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"]
+ document.write(mylist)
